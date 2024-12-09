@@ -1,7 +1,7 @@
 import "./App.css";
 import MovieList from "./components/MovieList.jsx";
 import MOVIE_DATA from "./movie.js";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import AddMovie from "./components/AddMovie.jsx";
 import Filter from "./components/Filter.jsx";
 
