@@ -9,6 +9,7 @@ const MovieList = (props) => {
           return (
             <MovieCard
               key={movie._id}
+              id={movie._id}
               title={movie.title}
               description={movie.description}
               posterURL={movie.posterURL}
